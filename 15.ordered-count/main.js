@@ -6,5 +6,4 @@ function findOrderedCount(string) {
 
 }
 
-
 module.exports = findOrderedCount
