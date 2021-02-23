@@ -1,6 +1,6 @@
 /**
  * @param { number | string } thing
- * @return {boolean}
+ * @return { boolean }
  */
 function isPalindrome(thing) {
     if (typeof(thing) === "string") {

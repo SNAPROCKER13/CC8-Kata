@@ -20,4 +20,7 @@ describe('Find first non consecutive number', function() {
   it(`should return 4 when input [2, 4, 6, 8, 10]`, function() {
     expect(findFirstNonConsecutive([2, 4, 6, 8, 10])).toBe(4)
   })
+  it(`should return 8 when input [1, 2, 3, 4, 5, 8]`, function() {
+    expect(findFirstNonConsecutive([1, 2, 3, 4, 5, 8])).toBe(8)
+  })
 })

@@ -28,7 +28,7 @@ describe('fizzbuzz', function() {
     expect(fizzBuzz(11)).toBe(11)
   })
 
-  it(`should return 'fizzbuzz' when input 45`, function() {
+  it(`should return 'fizzbuzz' when input 60`, function() {
     expect(fizzBuzz(60)).toBe('fizzbuzz')
   })
   it(`should return 'fizzbuzz' when input 300`, function() {
