@@ -30,7 +30,7 @@ function findMinMaxAndAvg(numbers) {
         sum = sum + numbers[i];
         n++;
     }
-    avg1 = sum/n;
+    avg1 = Math.round(sum/n);
 
     let obj = { 
         min : numbers[0],
